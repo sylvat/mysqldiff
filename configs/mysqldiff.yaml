@@ -1,0 +1,7 @@
+mysql:
+  dev:
+    dsn: dev:123456@tcp(x.x.x.x:3306)/test?timeout=90s&collation=utf8mb4_unicode_ci&parseTime=true
+    db: test
+  test:
+    dsn: test:123456@tcp(x.x.x.x:3306)/test?timeout=90s&collation=utf8mb4_unicode_ci&parseTime=true
+    db: test
